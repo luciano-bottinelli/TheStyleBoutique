@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px; /* Margen externo para toda la página */
+            padding: 0;
+        }
+        .header {
+            background-color: gray;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px; /* Margen inferior del header */
+        }
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-menu a {
+            text-decoration: none;
+            color: #000;
+        }
+        .search-cart {
+            display: flex;
+            gap: 10px;
+        }
+        .search, .cart {
+            width: 20px;
+            height: 20px;
+            background-color: #bbb;
+        }
+        .main-content {
+            padding: 20px; /* Padding interno del contenido principal */
+            text-align: center;
+        }
+        .section-title {
+            margin-bottom: 10px; /* Margen inferior del título */
+        }
+        .filter {
+            margin-bottom: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px; /* Margen entre productos */
+            max-width: 1200px;
+            margin: 0 auto 20px; /* Margen inferior entre secciones */
+        }
+        .product {
+            border: 1px solid #ccc; /* Borde gris claro */
+            padding: 10px; /* Padding interno del producto */
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ddd;
+        }
+        .product-image {
+            width: 50px;
+            height: 50px;
+            background-color: #bbb;
+        }
+        .add-to-cart {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #ccc;
+            border: none;
+            cursor: default;
+        }
+        .footer {
+            background-color: #d3d3d3;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px; /* Margen superior del footer */
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"></div>
+        <div class="nav-menu">
+            <a href="#">Deportivo</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Accesorios</a>
+            <a href="#">Calzado</a>
+            <a href="../index.html">inicio</a>
+        </div>
+        <div class="search-cart">
+            <div class="search"></div>
+            <div class="cart"></div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h2 class="section-title">Nuevos Lanzamientos</h2>
+        <div class="filter">Filtrar ▾</div>
+        <div class="product-grid">
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Lanzamiento 1</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Lanzamiento 2</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Lanzamiento 3</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Lanzamiento 4</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <h2 class="section-title">Tendencias</h2>
+        <div class="product-grid">
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Producto 1</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Producto 2</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div>
+                <div class="product"><div class="product-image"></div></div>
+                <p>Producto 3</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social-icons">
+            <img src="../imagenes/logotipo-de-instagram.png" alt="Instagram">
+            <img src="../imagenes/tiktok.png" alt="X">
+            <img src="../imagenes/whatsapp.png" alt="WhatsApp">
+            <img src="../imagenes/youtube.png" alt="YouTube">
+        </div>
+    </div>
+</body>
+</html>

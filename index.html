@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Style Boutique</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .h1nav h1 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            .nav nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .nav nav a {
+                font-size: 16px;
+            }
+
+            .buscar-carrito {
+                margin-top: 10px;
+            }
+
+            /* Títulos */
+            main h2 {
+                font-size: 18px;
+            }
+
+            .tendenciatitulo h3 {
+                font-size: 16px;
+            }
+
+            /* Filtro */
+            .filter {
+                font-size: 12px;
+            }
+
+            /* Productos */
+            .productos {
+                flex-direction: column;
+                padding: 0 10px;
+                gap: 20px;
+            }
+
+            .productos article {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .productos article img {
+                height: 250px;
+            }
+
+            .productos article p {
+                font-size: 16px;
+            }
+
+            .productos article button {
+                padding: 10px 20px;
+                font-size: 14px;
+                max-width: 100%;
+            }
+
+            /* Formulario */
+            .dropdown-menu {
+                max-width: 100%;
+                padding: 10px;
+            }
+
+            /* Footer */
+            .footer {
+                padding: 15px;
+            }
+
+            .footer-fotos {
+                gap: 15px;
+            }
+
+            .footer-fotos img {
+                width: 25px;
+                height: 25px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="h1nav"><h1>The Style Boutique</h1></div>
+        <div class="nav"><nav>
+            <a href="index.html">INICIO</a>
+            <a href="pages/deportivo.html">DEPORTIVO</a>
+            <a href="pages/ofertas.html">OFERTAS</a>
+            <a href="pages/accesorios.html">ACCESORIOS</a>
+            <a href="pages/calzado.html">CALZADO</a>
+        </nav></div>
+        <div class="buscar-carrito">
+            <div class="buscar"><img src="./assets/imagenes/buscar.png" alt="Buscar"></div>
+            <div class="carrito"><img src="./assets/imagenes/carrito-de-compras.png" alt="Carrito"></div>
+        </div>
+    </header>
+
+    <main>
+        <div><h2>NUEVOS LANZAMIENTOS</h2></div>
+        <div class="filter">Filtrar ▾</div>
+        <section class="productos">
+            <article>
+                <div><img src="./assets/imagenes/NuevoLanzamiento1.png" alt="Lanzamiento 1"></div>
+                <p>Lanzamiento 1</p>
+                <button>Añadir al carrito</button>
+            </article>
+            <article>
+                <div><img src="./assets/imagenes/nuevolanzamiento2.png" alt="Lanzamiento 2"></div>
+                <p>Lanzamiento 2</p>
+                <button>Añadir al carrito</button>
+            </article>
+            <article>
+                <div><img src="./assets/imagenes/nuevolanzamiento3.png" alt="Lanzamiento 3"></div>
+                <p>Lanzamiento 3</p>
+                <button>Añadir al carrito</button>
+            </article>
+            <article>
+                <div><img src="./assets/imagenes/nuevolanzamiento4.png" alt="Lanzamiento 4"></div>
+                <p>Lanzamiento 4</p>
+                <button>Añadir al carrito</button>
+            </article>
+        </section>
+
+        <div class="tendenciatitulo"><h3>TENDENCIAS</h3></div>
+        <section class="productos">
+            <article>
+                <div><img src="./assets/imagenes/tendencia1.png" alt="Tendencia 1"></div>
+                <p>Tendencia 1</p>
+                <button>Añadir al carrito</button>
+            </article>
+            <article>
+                <div><img src="./assets/imagenes/tendencia2.png" alt="Tendencia 2"></div>
+                <p>Tendencia 2</p>
+                <button>Añadir al carrito</button>
+            </article>
+            <article>
+                <div><img src="./assets/imagenes/tendencia3.png" alt="Tendencia 3"></div>
+                <p>Tendencia 3</p>
+                <button>Añadir al carrito</button>
+            </article>
+        </section>
+
+        <div class="dropdown-menu">
+            <form class="px-4 py-3">
+                <div class="mb-3">
+                    <div class="margenform"><label for="exampleDropdownFormEmail1" class="form-label">Correo Electrónico</label></div>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                            Recordarme
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">¿Sos nuevo? Registrate</a>
+            <a class="dropdown-item" href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+
+        <div class="login-form">
+            <h4>Iniciar Sesión</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="loginEmail" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="loginEmail" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="loginPassword" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="loginPassword" placeholder="Contraseña">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="loginCheck">
+                    <label class="form-check-label" for="loginCheck">Recordarme</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-fotos">
+            <img src="./assets/imagenes/logotipo-de-instagram.png" alt="Instagram">
+            <img src="./assets/imagenes/tiktok.png" alt="TikTok">
+            <img src="./assets/imagenes/whatsapp.png" alt="WhatsApp">
+            <img src="./assets/imagenes/youtube.png" alt="YouTube">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
