@@ -1,0 +1,22 @@
+%boton{
+			padding: 8px 16px;
+			background-color: black;
+			color: white;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			max-width: 200px;
+			padding: 10px 20px;
+			font-size: 14px;
+			max-width: 100%;
+}
+
+%body{
+    margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+	font-family: inherit;
+	background-color: white;
+}
+

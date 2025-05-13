@@ -1,0 +1,19 @@
+{
+  "name": "ejemplo-1-curso-coder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciano-bottinelli/TheStyleBoutique.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciano-bottinelli/TheStyleBoutique/issues"
+  },
+  "homepage": "https://github.com/luciano-bottinelli/TheStyleBoutique#readme",
+  "description": ""
+}

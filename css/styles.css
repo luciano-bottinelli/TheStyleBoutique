@@ -1,0 +1,216 @@
+.productos article button, .productosoferta article button {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 14px;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: inherit;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 100%;
+  background-color: black;
+}
+
+.h1nav h1 {
+  text-decoration: none;
+  font-size: 24px;
+  color: gray;
+  margin-right: 100px;
+}
+
+.nav nav {
+  display: flex;
+  gap: 15px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+main {
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+main h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productos {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.productos article {
+  text-align: center;
+}
+.productos article img {
+  object-fit: cover;
+}
+.productos article p {
+  font-size: 14px;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+.buscar-carrito {
+  display: flex;
+  gap: 50px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #9b9b9b;
+  width: 100%;
+  max-width: 100%;
+}
+
+.footer-fotos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-fotos img {
+  width: 30px;
+  height: 30px;
+}
+
+.form {
+  margin: 20px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.mainofertas {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+}
+
+.hhhofertas {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.titulos {
+  text-align: center;
+}
+
+.sectionfull {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.fotosfull {
+  max-width: 100%;
+}
+
+.futboldeportivo {
+  margin-bottom: 60px;
+}
+
+.margenform {
+  margin-bottom: 5pxs;
+}
+
+body {
+  background-color: white;
+}
+
+.tendenciatitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gorrasaccesorios {
+  display: flex;
+  justify-content: center;
+}
+
+.unodecinco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotogorra {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+.login-form h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.tresproductos {
+  display: flex;
+  justify-content: center;
+}
+
+.dosproductos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.productosoferta {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.productosoferta article {
+  text-align: center;
+}
+.productosoferta article img {
+  object-fit: cover;
+}
+.productosoferta article p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
