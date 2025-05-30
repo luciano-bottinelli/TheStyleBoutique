@@ -18,7 +18,7 @@
                 margin-top: 10px;
             }
 
-            /* Títulos */
+            
             main h2 {
                 font-size: 18px;
             }
@@ -27,16 +27,17 @@
                 font-size: 16px;
             }
 
-            /* Filtro */
+            
             .filter {
                 font-size: 12px;
             }
 
-            /* Productos */
+            
             .productos {
                 flex-direction: column;
                 padding: 0 10px;
                 gap: 20px;
+                max-width: 768px;
             }
 
             .productos article {
@@ -58,13 +59,13 @@
                 max-width: 100%;
             }
 
-            /* Formulario */
+            
             .dropdown-menu {
                 max-width: 100%;
                 padding: 10px;
             }
 
-            /* Footer */
+            
             .footer {
                 padding: 15px;
             }
@@ -77,6 +78,18 @@
                 width: 25px;
                 height: 25px;
             }
+
+            body, html {
+                overflow-x: hidden; 
+                width: 100%; 
+            }
+
+            article {
+                display: block; 
+                width: 100%; 
+                box-sizing: border-box;
+            } 
+
 
         }
 

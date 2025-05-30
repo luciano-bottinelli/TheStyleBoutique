@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .productos article button, .productosoferta article button {
   padding: 8px 16px;
   background-color: black;
@@ -241,22 +240,20 @@ body {
   .buscar-carrito {
     margin-top: 10px;
   }
-  /* Títulos */
   main h2 {
     font-size: 18px;
   }
   .tendenciatitulo h3 {
     font-size: 16px;
   }
-  /* Filtro */
   .filter {
     font-size: 12px;
   }
-  /* Productos */
   .productos {
     flex-direction: column;
     padding: 0 10px;
     gap: 20px;
+    max-width: 768px;
   }
   .productos article {
     width: 100%;
@@ -273,12 +270,10 @@ body {
     font-size: 14px;
     max-width: 100%;
   }
-  /* Formulario */
   .dropdown-menu {
     max-width: 100%;
     padding: 10px;
   }
-  /* Footer */
   .footer {
     padding: 15px;
   }
@@ -288,6 +283,15 @@ body {
   .footer-fotos img {
     width: 25px;
     height: 25px;
+  }
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  article {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 

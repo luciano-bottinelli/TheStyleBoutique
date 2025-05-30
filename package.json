@@ -15,5 +15,8 @@
     "url": "https://github.com/luciano-bottinelli/TheStyleBoutique/issues"
   },
   "homepage": "https://github.com/luciano-bottinelli/TheStyleBoutique#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
