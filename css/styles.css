@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .productos article button, .productosoferta article button {
   padding: 8px 16px;
   background-color: black;
@@ -15,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
   font-family: inherit;
   background-color: white;
@@ -62,6 +64,7 @@ main h2 {
   display: flex;
   gap: 15px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .productos article {
   text-align: center;
@@ -129,8 +132,11 @@ main h2 {
 }
 
 .sectionfull {
+  display: flex;
   max-width: 100%;
   overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
 }
 
 .fotosfull {
@@ -171,6 +177,7 @@ body {
 .fotogorra {
   display: flex;
   justify-content: center;
+  max-width: 100%;
 }
 
 .login-form {
@@ -211,6 +218,77 @@ body {
 .productosoferta article p {
   font-size: 14px;
   margin: 10px 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .h1nav h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .nav nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav nav a {
+    font-size: 16px;
+  }
+  .buscar-carrito {
+    margin-top: 10px;
+  }
+  /* Títulos */
+  main h2 {
+    font-size: 18px;
+  }
+  .tendenciatitulo h3 {
+    font-size: 16px;
+  }
+  /* Filtro */
+  .filter {
+    font-size: 12px;
+  }
+  /* Productos */
+  .productos {
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 20px;
+  }
+  .productos article {
+    width: 100%;
+    max-width: 100%;
+  }
+  .productos article img {
+    height: 250px;
+  }
+  .productos article p {
+    font-size: 16px;
+  }
+  .productos article button {
+    padding: 10px 20px;
+    font-size: 14px;
+    max-width: 100%;
+  }
+  /* Formulario */
+  .dropdown-menu {
+    max-width: 100%;
+    padding: 10px;
+  }
+  /* Footer */
+  .footer {
+    padding: 15px;
+  }
+  .footer-fotos {
+    gap: 15px;
+  }
+  .footer-fotos img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

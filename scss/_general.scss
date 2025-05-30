@@ -1,7 +1,6 @@
 @use "./mixinextends"as*;
 @use "./variables"as*;
 
-
 header {
 	display: flex;
 	justify-content: center;
@@ -44,6 +43,7 @@ main {
 	display: flex;
 	gap: 15px;
 	justify-content: center;
+	margin-bottom: 20px;
 	article {
 		text-align: center;
 		img {
@@ -106,8 +106,11 @@ main {
 	text-align: center;
 }
 .sectionfull {
+	display: flex;
 	max-width: 100%;
 	overflow-x: hidden;
+	align-items: center;
+	justify-content: center;
 }
 .fotosfull {
 	max-width: 100%;
@@ -142,6 +145,7 @@ body {
 .fotogorra {
 	display: flex;
 	justify-content: center;
+	max-width: 100%;
 }
 .login-form {
 	width: 100%;
@@ -181,4 +185,10 @@ body {
 			 @extend %boton;
 		}
 	}
+}
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
